@@ -1,0 +1,76 @@
+@media (max-width: 1154px){
+    .designs{
+        width: 20rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        margin-right: 9.4rem;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .nav-menu{
+        justify-content: end;
+        gap: 1rem;
+    }
+
+    .brands-lists{
+        overflow: scroll;
+    }
+
+    .designs{
+        width: 17.3rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        padding: 1rem 1rem;
+    }
+
+    .brands-lists{
+        overflow: scroll;
+    }
+
+    .designs-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .designs-grid-insta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 0.1rem;
+    }
+}
+
+@media(max-width: 666px){
+    .ship {
+        width: 100%;
+        height: 55rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
